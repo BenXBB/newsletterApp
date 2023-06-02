@@ -19,7 +19,7 @@ $(document).ready(function() {
       }
 
       $("#confirmedEmail").text($("#email").val());
-      
+
       $.ajax({
         type: "POST",
         url: "forms/contact.php",
@@ -31,6 +31,7 @@ $(document).ready(function() {
           console.log(data)
         },
         error: function (e) {
+            console.log("The password for the email account may of been removed to not allow users to have access.")
             console.log("ERROR : ", e);
         }
       }); // end of ajax

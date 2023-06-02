@@ -2,6 +2,8 @@
 
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+This project sends an emial to the user to confirm registration. The password from the PHP file has been removed in the public GitHub to not allow users to have access.
+
 ## Table of contents
 
 - [Overview](#overview)

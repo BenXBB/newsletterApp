@@ -14,7 +14,7 @@
     $mail->Host="smtp.hostinger.com";
     $mail->SMTPAuth = true;
     $mail->Username="donotreply@benbandrowski.co.uk";
-    $mail->Password="Stophackingthispassword!1";
+    $mail->Password="";
     $mail->SMTPSecure="ssl";
     $mail->Port=465;
     $mail->AddEmbeddedImage('../assets/images/icon-success-lg.svg', 'tick');
